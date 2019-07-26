@@ -21,10 +21,24 @@
         <div class="card-body">
             <form>
                 <div class="form-group">
-                    <label for="search-term">Search Term</label>
+                    <label for="search-term">Search Term:</label>
                     <input type="text" class="form-control" id="search-term">
                 </div>
+                <div class="form-group">
+                    <label for="numRecords">Number of Records to Retrieve:</label>
+                    <input type="text" class="form-control" id="numRecords">
+                </div>
+                <div class="form-group">
+                    <label for="startYr">Start Year (Optional):</label>
+                    <input type="text" class="form-control" id="startYr">
+                    </div>
+                    <div class="form-group">
+                    <label for="endYr">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="endYr">
+                    </div>
             </form>
+            <button class="btn btn-primary" id="searchBtn">Search</button>
+            <button class="btn btn-primary" id="clearBtn">Clear Results</button>
         </div>
     </div>
 </body>
